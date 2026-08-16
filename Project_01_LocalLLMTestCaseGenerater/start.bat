@@ -1,0 +1,6 @@
+@echo off
+echo Starting Backend...
+start cmd /k "cd backend && node ""C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js"" run dev"
+echo Starting Frontend...
+start cmd /k "cd frontend && node ""C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js"" run dev"
+echo Both servers are starting in new windows. You can close this terminal.
